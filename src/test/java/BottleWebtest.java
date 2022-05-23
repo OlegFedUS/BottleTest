@@ -12,7 +12,6 @@ public class BottleWebtest {
         public void BottlesTest() {
 
             System.setProperty("webdriver.chrome.driver", "c:\\program files\\google\\chrome\\application\\chromedriver.exe");
-
             WebDriver driver = new ChromeDriver();
 
             try {
